@@ -1,0 +1,41 @@
+##################################################
+# Syntax Coloring Map For RTCDS1307-library
+##################################################
+
+##################################################
+# Classes, datatypes and C++ keywords	(KEYWORD1)
+##################################################
+
+RTCDS1307	KEYWORD1
+
+##################################################
+# Methods and Functions			(KEYWORD2)
+##################################################
+
+getDate	KEYWORD2
+getMode	KEYWORD2
+getTime	KEYWORD2
+isLeapYear	KEYWORD2
+read	KEYWORD2
+setDate	KEYWORD2
+setMode	KEYWORD2
+setTime	KEYWORD2
+wday	KEYWORD2
+write	KEYWORD2
+
+##################################################
+# Constants				(LITERAL1)
+##################################################
+
+RTCDS1307_FREQ1H	LITERAL1
+RTCDS1307_FREQ4K	LITERAL1
+RTCDS1307_FREQ8K	LITERAL1
+RTCDS1307_FREQ32K	LITERAL1
+
+RTCDS1307_MODE12	LITERAL1
+RTCDS1307_MODE24	LITERAL1
+
+##################################################
+# Built-in variables			(LITERAL2)
+##################################################
+
