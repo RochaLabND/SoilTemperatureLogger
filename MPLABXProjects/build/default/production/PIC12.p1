@@ -1,0 +1,329 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"1720 /Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1720: extern volatile unsigned char ANSEL __attribute__((address(0x09F)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@159 ]
+"791
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 791: extern volatile unsigned char ADCON0 __attribute__((address(0x01F)));
+[v _ADCON0 `Vuc ~T0 @X0 0 e@31 ]
+"699
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 699: extern volatile unsigned char CMCON0 __attribute__((address(0x019)));
+[v _CMCON0 `Vuc ~T0 @X0 0 e@25 ]
+"1563
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1563: extern volatile unsigned char VRCON __attribute__((address(0x099)));
+[v _VRCON `Vuc ~T0 @X0 0 e@153 ]
+"951
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 951: extern volatile unsigned char TRISIO __attribute__((address(0x085)));
+[v _TRISIO `Vuc ~T0 @X0 0 e@133 ]
+"166
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 166: extern volatile unsigned char GPIO __attribute__((address(0x005)));
+[v _GPIO `Vuc ~T0 @X0 0 e@5 ]
+"881
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 881: extern volatile unsigned char OPTION_REG __attribute__((address(0x081)));
+[v _OPTION_REG `Vuc ~T0 @X0 0 e@129 ]
+"646
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 646: extern volatile unsigned char WDTCON __attribute__((address(0x018)));
+[v _WDTCON `Vuc ~T0 @X0 0 e@24 ]
+"172
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 172:     struct {
+[s S6 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S6 . GP0 GP1 GP2 GP3 GP4 GP5 ]
+"171
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 171: typedef union {
+[u S5 `S6 1 ]
+[n S5 . . ]
+"181
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 181: extern volatile GPIObits_t GPIObits __attribute__((address(0x005)));
+[v _GPIObits `VS5 ~T0 @X0 0 e@5 ]
+[v F618 `(v ~T0 @X0 1 tf1`ul ]
+"92 /Applications/microchip/xc8/v2.20/pic/include/pic.h
+[v __delay `JF618 ~T0 @X0 0 e ]
+[p i __delay ]
+"2039 /Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 2039: extern volatile __bit SWDTEN __attribute__((address(0xC0)));
+[v _SWDTEN `Vb ~T0 @X0 0 e@192 ]
+"54 /Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 168: __asm("GPIO equ 05h");
+[; <" GPIO equ 05h ;# ">
+"218
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 218: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"238
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 238: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"316
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 316: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"387
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 387: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"394
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 394: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"401
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 401: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"408
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 408: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"485
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 485: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"492
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 492: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"563
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 563: __asm("CCPR1 equ 013h");
+[; <" CCPR1 equ 013h ;# ">
+"570
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 570: __asm("CCPR1L equ 013h");
+[; <" CCPR1L equ 013h ;# ">
+"577
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 577: __asm("CCPR1H equ 014h");
+[; <" CCPR1H equ 014h ;# ">
+"584
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 584: __asm("CCP1CON equ 015h");
+[; <" CCP1CON equ 015h ;# ">
+"648
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 648: __asm("WDTCON equ 018h");
+[; <" WDTCON equ 018h ;# ">
+"701
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 701: __asm("CMCON0 equ 019h");
+[; <" CMCON0 equ 019h ;# ">
+"760
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 760: __asm("CMCON1 equ 01Ah");
+[; <" CMCON1 equ 01Ah ;# ">
+"786
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 786: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"793
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 793: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"883
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 883: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"953
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 953: __asm("TRISIO equ 085h");
+[; <" TRISIO equ 085h ;# ">
+"1003
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1003: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1074
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1074: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1113
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1113: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1178
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1178: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1230
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1230: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1237
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1237: __asm("WPU equ 095h");
+[; <" WPU equ 095h ;# ">
+"1242
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1242: __asm("WPUA equ 095h");
+[; <" WPUA equ 095h ;# ">
+"1391
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1391: __asm("IOC equ 096h");
+[; <" IOC equ 096h ;# ">
+"1396
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1396: __asm("IOCA equ 096h");
+[; <" IOCA equ 096h ;# ">
+"1565
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1565: __asm("VRCON equ 099h");
+[; <" VRCON equ 099h ;# ">
+"1625
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1625: __asm("EEDAT equ 09Ah");
+[; <" EEDAT equ 09Ah ;# ">
+"1630
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1630: __asm("EEDATA equ 09Ah");
+[; <" EEDATA equ 09Ah ;# ">
+"1663
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1663: __asm("EEADR equ 09Bh");
+[; <" EEADR equ 09Bh ;# ">
+"1670
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1670: __asm("EECON1 equ 09Ch");
+[; <" EECON1 equ 09Ch ;# ">
+"1708
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1708: __asm("EECON2 equ 09Dh");
+[; <" EECON2 equ 09Dh ;# ">
+"1715
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1715: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"1722
+[; ;/Applications/microchip/xc8/v2.20/pic/include/proc/pic12f683.h: 1722: __asm("ANSEL equ 09Fh");
+[; <" ANSEL equ 09Fh ;# ">
+"23 PIC12.c
+[p x FOSC = INTOSCIO ]
+"24
+[p x WDTE = OFF ]
+"25
+[p x PWRTE = ON ]
+"26
+[p x MCLRE = OFF ]
+"27
+[p x CP = OFF ]
+"28
+[p x CPD = OFF ]
+"29
+[p x BOREN = OFF ]
+"30
+[p x IESO = OFF ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"40
+[; ;PIC12.c: 40: void main()
+[v _main `(v ~T0 @X0 1 ef ]
+"41
+[; ;PIC12.c: 41: {
+{
+[e :U _main ]
+[f ]
+"42
+[; ;PIC12.c: 42:     ANSEL = 0x00;
+[e = _ANSEL -> -> 0 `i `uc ]
+"43
+[; ;PIC12.c: 43:     ADCON0 = 0x00;
+[e = _ADCON0 -> -> 0 `i `uc ]
+"44
+[; ;PIC12.c: 44:     CMCON0 = 0x07;
+[e = _CMCON0 -> -> 7 `i `uc ]
+"45
+[; ;PIC12.c: 45:     VRCON = 0x00;
+[e = _VRCON -> -> 0 `i `uc ]
+"46
+[; ;PIC12.c: 46:     TRISIO = 0x08;
+[e = _TRISIO -> -> 8 `i `uc ]
+"47
+[; ;PIC12.c: 47:     GPIO = 0x00;
+[e = _GPIO -> -> 0 `i `uc ]
+"48
+[; ;PIC12.c: 48:     OPTION_REG = 000;
+[e = _OPTION_REG -> -> 0 `i `uc ]
+"49
+[; ;PIC12.c: 49:     WDTCON = 1010;
+[e = _WDTCON -> -> 1010 `i `uc ]
+"51
+[; ;PIC12.c: 51:     unsigned int interval = 100;
+[v _interval `ui ~T0 @X0 1 a ]
+[e = _interval -> -> 100 `i `ui ]
+"53
+[; ;PIC12.c: 53:     unsigned int ct;
+[v _ct `ui ~T0 @X0 1 a ]
+"54
+[; ;PIC12.c: 54:     unsigned int i;
+[v _i `ui ~T0 @X0 1 a ]
+"55
+[; ;PIC12.c: 55:     unsigned int timeout = 500;
+[v _timeout `ui ~T0 @X0 1 a ]
+[e = _timeout -> -> 500 `i `ui ]
+"57
+[; ;PIC12.c: 57:     GPIObits.GP4 = 1;
+[e = . . _GPIObits 0 4 -> -> 1 `i `uc ]
+"58
+[; ;PIC12.c: 58:     _delay((unsigned long)((1000)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"59
+[; ;PIC12.c: 59:     GPIObits.GP4 = 0;
+[e = . . _GPIObits 0 4 -> -> 0 `i `uc ]
+"61
+[; ;PIC12.c: 61:     SWDTEN = 1;
+[e = _SWDTEN -> -> 1 `i `b ]
+"63
+[; ;PIC12.c: 63:     while(1)
+[e :U 79 ]
+"64
+[; ;PIC12.c: 64:     {
+{
+"65
+[; ;PIC12.c: 65:         ct++;
+[e ++ _ct -> -> 1 `i `ui ]
+"66
+[; ;PIC12.c: 66:         if (ct >= interval){
+[e $ ! >= _ct _interval 81  ]
+{
+"67
+[; ;PIC12.c: 67:             SWDTEN = 0;
+[e = _SWDTEN -> -> 0 `i `b ]
+"68
+[; ;PIC12.c: 68:             ct = 0;
+[e = _ct -> -> 0 `i `ui ]
+"69
+[; ;PIC12.c: 69:             GPIObits. GP2 = 1;
+[e = . . _GPIObits 0 2 -> -> 1 `i `uc ]
+"70
+[; ;PIC12.c: 70:             _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"71
+[; ;PIC12.c: 71:             for(i=0; i<timeout; i++)
+{
+[e = _i -> -> 0 `i `ui ]
+[e $U 85  ]
+[e :U 82 ]
+"72
+[; ;PIC12.c: 72:             {
+{
+"73
+[; ;PIC12.c: 73:                 if (GPIObits. GP3 == 1)
+[e $ ! == -> . . _GPIObits 0 3 `i -> 1 `i 86  ]
+"74
+[; ;PIC12.c: 74:                 {
+{
+"75
+[; ;PIC12.c: 75:                    break;
+[e $U 83  ]
+"76
+[; ;PIC12.c: 76:                 }
+}
+[e :U 86 ]
+"77
+[; ;PIC12.c: 77:                  _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"78
+[; ;PIC12.c: 78:             }
+}
+[e ++ _i -> -> 1 `i `ui ]
+[e :U 85 ]
+[e $ < _i _timeout 82  ]
+[e :U 83 ]
+}
+"79
+[; ;PIC12.c: 79:             GPIObits. GP2 = 0;
+[e = . . _GPIObits 0 2 -> -> 0 `i `uc ]
+"80
+[; ;PIC12.c: 80:             SWDTEN = 1;
+[e = _SWDTEN -> -> 1 `i `b ]
+"81
+[; ;PIC12.c: 81:             }
+}
+[e :U 81 ]
+"82
+[; ;PIC12.c: 82:         __asm("sleep");
+[; <" sleep ;# ">
+"83
+[; ;PIC12.c: 83:         }
+}
+[e :U 78 ]
+[e $U 79  ]
+[e :U 80 ]
+"84
+[; ;PIC12.c: 84: }
+[e :UE 77 ]
+}
